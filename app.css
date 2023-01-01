@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  /* font-family: 'Merriweather', serif; */
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #f3f6ff;
+}
+.container {
+  min-height: 100vh;
+  max-width: 1054px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+.container > h1 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1e2246;
+  margin-bottom: 72px;
+  text-align: center;
+}
+.container > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1e2246;
+  opacity: 0.7;
+}
+.cards-c {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 61px;
+  gap: 20px;
+}
+.cards-c .card {
+  padding: 48px 40px;
+  background: #fff;
+  border-radius: 16px;
+
+}
+.card-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.card-heading img {
+  margin-right: 16px;
+  max-width: 64px;
+  max-height: 64px;
+  object-fit: cover;
+}
+.card-heading h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1e2246;
+}
+.card button {
+  padding: 16px 50px;
+  background: #ffffff;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1e2246;
+  border: 1px solid #C2C5E2;
+  cursor: pointer;
+  transition: .2s;
+}
+.card button:hover {
+    background: #1E2246;
+    color: #fff;
+}
