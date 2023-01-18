@@ -1,2 +1,2 @@
-# Cards_Gallery
-My Practise from Youtube.
+# Cards_Gallery 
+My practise from Youtube
